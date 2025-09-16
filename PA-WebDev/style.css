@@ -1,0 +1,22 @@
+tr {
+   padding: 5px;
+   border: 5px rgb(0, 109, 128);
+   margin: 5px; 
+}
+
+span {
+    margin: 20px;
+}
+
+.ipcOrange {
+    background-color: rgb(255, 181, 53);
+}
+
+.ipcYellow {
+    background-color: rgb(247, 247, 53);
+}
+
+.ipcGreen {
+    background-color: rgb(85, 134, 85);
+}
+
