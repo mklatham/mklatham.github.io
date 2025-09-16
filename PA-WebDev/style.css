@@ -2,26 +2,12 @@
     text-align: center;
 }
 
-nav:hover {
-    color: rgb(0, 109, 128)
-}
-
-#resume {
-    font-style: italic;
-    color: rgb(0, 109, 128); 
-    padding: 10px;
-}
-
 table {
     padding: 10px;
 }
 
 span {
     margin: 20px;
-}
-
-img, audio, video {
-    padding: 20px;
 }
 
 ul {
@@ -42,12 +28,26 @@ ul {
     background-color: rgb(85, 134, 85);
 }
 
+#source {
+    font-size: small;
+    font-style: italic;
+}
+
+#resume {
+    color: rgb(0, 109, 128); 
+    padding: 10px;
+}
+
 section p {
     font-family: Arial;
 }
 
-#source {
-    font-size: small;
+nav:hover {
+    color: rgb(0, 109, 128)
+}
+
+img, audio, video {
+    padding: 20px;
 }
 
 h1 {
