@@ -15,8 +15,70 @@
             </nav>
         </header>
         <main>
-            <section></section>
+            <section>
+                <h2>Welcome!</h2>
+                <audio>
+                    <source src="Welcome_Audio.wav">
+                </audio>
+                <p>Audio Source: https://commons.wikimedia.org/wiki/File:Welcome_Audio.wav</p>
+                <p>The ultimate goal for my career is to provide an exceptional experience to my future clients. I will accomplish this by</p>
+                <p id="cycle">Mastering the software development cycle. I will practice using the principles of the software development cycle to create and maintain reliable and secure code.</p>
+                <img src="SDLC.jpg" alt="Software Development Life Cycle">
+                <p>Source: https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg</p>
+                <p id="communicate">Communicate clearly with clients to identify what is needed from my products.</p>
+                <p id="improve">Continuously improve my skillset by regularly researching the latest techniques for software and web development.</p>
+                <p>These goals will help me give my family the best life. Here is a video of my dog!</p>
+                <video>
+                    <source src="IMG_1064.mov" muted>
+                </video>
+                
+            </section>
         </main>
-        <footer></footer>
-        <article></article>
+        <footer>
+            <h2>Contact</h2>
+            <form action="https://wp.zybooks.com/form-viewer.php">
+                <p>
+                    <label for="first">First Name:</label>
+                    <input type="text" name="first" id="first">
+                </p>
+                <p>
+                    <label for="last">Last Name:</label>
+                    <input type="text" name="last" id="last">
+                </p>
+                <p>
+                   <label for="company">Company Name:</label>
+                   <input type="text" name="company" id="company">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone">
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <input type="text" name="message" id="message">
+                </p>
+                <p>Select the best time to be contacted:</p>
+                <div>
+                    <input type="radio" name="time" value="a.m." id="am">
+                    <label for="am">a.m.</label>
+                </div>
+                <div>
+                    <input type="radio" name="time" value="p.m." id="pm">
+                    <label for="pm">p.m.</label>
+                </div>
+                <div>
+                    <input type="radio" name="time" value="anytime" id="anytime">
+                    <label for="anytime">anytime</label>
+                </div>
+                <select name="contact">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    <option value="text">Text</option>
+                </select>
+            </form>
+        </footer>
     </body>
