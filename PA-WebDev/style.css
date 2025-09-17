@@ -47,8 +47,8 @@ section p {
     font-family: Arial;
 }
 
-nav:hover {
-    color: rgb(0, 109, 128)
+a:hover {
+    color: rgb(97, 231, 71)
 }
 
 img, audio, video {
