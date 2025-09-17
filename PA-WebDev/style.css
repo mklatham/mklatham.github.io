@@ -34,16 +34,17 @@ td {
 }
 
 #source {
-    font-size: small;
+    font-size: 12px;
     font-style: italic;
 }
 
 #resume {
-    color: rgb(0, 109, 128); 
+    color: rgb(0, 109, 128);
+    padding: 20px 
 }
 
 section p {
-    font-family: Arial;
+    font: 20px, Arial;
 }
 
 a:hover {
@@ -55,8 +56,6 @@ img, audio, video {
 }
 
 h1 {
-    padding: 10px;
-    border: 10px solid rgb(0, 109, 128);
-    margin: 10px; 
+    border: 10px solid rgb(0, 109, 128); 
  }
 
