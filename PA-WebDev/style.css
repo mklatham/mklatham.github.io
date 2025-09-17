@@ -2,10 +2,6 @@
     text-align: center;
 }
 
-table {
-    padding: 10px;
-}
-
 span {
     margin: 20px;
 }
@@ -19,6 +15,10 @@ ul {
 table {
     margin-left: auto;
     margin-right: auto;
+}
+
+td {
+    padding: 10px;
 }
 
 .ipcOrange {
