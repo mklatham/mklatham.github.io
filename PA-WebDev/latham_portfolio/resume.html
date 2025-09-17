@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mackenzie Latham | Resume</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mackenzie Latham</h1>
+            <nav>
+                <ul>
+                    <li><a href="cover-letter.html">Cover Letter</a></li>
+                    <li><a href="career-goals.html">Career Goals</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="resume">
+                <table>
+                    <caption><strong>Resume</strong></caption>
+                    <tr>
+                        <th>About Me!</th>
+                        <th>Professional Experience</th>
+                        <th>Education</th>
+                        <th>Skills</th>
+                    </tr>
+                    <tr>
+                        <td>Student pursuing bachelor's degree in computer science.</td>
+                        <td>Senior Assembler, Schweitzer Engineering Laboratories, 2023-2025</td>
+                        <td>Bachelor of Science in Computer Science, Western Governor's University (In Progress)</td>
+                        <td>Proficient in MS Word, PowerPoint, Excel, and Access</td>
+                    </tr>
+                    <tr>
+                        <td>Passionate about <em>continuously learning</em> latest technologies of the field.</td>
+                        <td>Delivery Driver, Doordash, 2022-2023</td>
+                        <td>High School Diploma, Willow Canyon High School, 2018</td>
+                        <td>Fluent in Spanish and English</td>
+                    </tr>
+                    <tr>
+                        <td>Eager to take on roles in Web Development.</td>
+                        <td>Staging Assistant, Atwil Design, 2018-2022</td>
+                        <td></td>
+                        <td>IPC 600, 610, and 620 certified.</td>
+                    </tr>
+                </table>
+                <hr>
+                <span>Hobbies: crochet, hiking, baking, gardening</span>
+            </section>
+            <article>
+                <p>
+                    Thank you for your consideration!<br>
+                    Please visit the <a href="cover-letter.html">Career Goals</a> page to submit a contact form.
+                </p>
+            </article>
+        </main>
+        <footer>
+            <h3>Today is:</h3>
+            <div id="popDate"></div>
+            <h3 id="popDay"></h3>
+            <script>
+                const todayDate = new Date(); 
+                document.getElementById("popDate").innerHTML = todayDate.toDateString();
+                let todayDay = todayDate.getDay();
+                if (todayDay == 1) {
+                    console.log("Happy Monday!");
+                    document.getElementById("popDay").innerHTML = ("Happy Monday!");
+                }
+                else if (todayDay == 2) {
+                    console.log("Happy Tuesday!");
+                    document.getElementById("popDay").innerHTML = ("Happy Tuesday!");
+                }
+                else if (todayDay == 3) {
+                    console.log("Happy Wednesday!");
+                    document.getElementById("popDay").innerHTML = ("Happy Wednesday!");
+                }
+                else if (todayDay == 4) {
+                    console.log("Happy Thursday!");
+                    document.getElementById("popDay").innerHTML = ("Happy Thursday!");
+                }
+                else if (todayDay == 5) {
+                    console.log("Happy Friday!");
+                    document.getElementById("popDay").innerHTML = ("Happy Friday!");
+                }
+                else {
+                    console.log("Enjoy your weekend!");
+                    document.getElementById("popDay").innerHTML = ("Enjoy your weekend!");
+                }
+            </script>
+        </footer>
+    </body>
+</html>
